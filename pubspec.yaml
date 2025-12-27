@@ -1,0 +1,30 @@
+name: sat_tracker
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+# --- 1. DEPENDENCIES SECTION (Must be on the far left) ---
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # Map & Location packages
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
+  
+  # Math package (Version fixed from 1.0.0 -> 0.1.0)
+  sgp4_sdp4: ^0.1.0
+
+# --- 2. DEV DEPENDENCIES ---
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# --- 3. FLUTTER SETTINGS (Must be at the bottom) ---
+flutter:
+  uses-material-design: true
