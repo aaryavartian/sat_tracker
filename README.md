@@ -1,6 +1,6 @@
 # sat_tracker
 
-A new Flutter project.
+A Flutter project that gives information about a satellite (latitude,longitude,altitude) on real time tracking map.
 
 ## Getting Started
 
